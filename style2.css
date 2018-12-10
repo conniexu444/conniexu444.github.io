@@ -117,4 +117,10 @@ a:active{
 h2, h3, h4, h5{
   text-align: center;
   font-size: 3em;
+  margin: auto;
+}
+
+footer{
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
