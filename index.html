@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8"/>
+    <title>Constance Xu</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+
+  </head>
+
+  <body>
+
+    <a href="http://instagram.com/connie.xu" target="_blank">
+      <img src="igicon.png" alt="" class="social" id="instagram">
+    </a>
+    <a href="collegeresume.pdf" target="_blank">
+      <img src="resumeicon.png" alt="" class="social" id="resume">
+    </a>
+    <a href="https://www.linkedin.com/in/constance-xu-b16377173/" target="_blank">
+      <img src="liicon.png" alt="" class="social" id="linkedin">
+    </a>
+    <a href="https://github.com/conniexu444" target="_blank">
+      <img src="githubicon.png" alt="" class="social" id="github">
+    </a>
+    <a href="mailto:cxu16@stevens.edu" target="_blank">
+      <img src="emailicon.png" alt="" class="social" id="email">
+    </a>
+
+    <h1>Constance Xu</h1>
+
+    <div id="typewriter"></div>
+    <script>
+    var str = "<h2>Stevens Institute of Technology ○ Class of 2022 ○ Computer Science Major</h2>",
+    i = 0,
+    isTag,
+    text;
+
+    (function type() {
+      text = str.slice(0, ++i);
+      if (text === str) return;
+
+      document.getElementById('typewriter').innerHTML = text;
+
+      var char = text.slice(-1);
+      if( char === '<' ) isTag = true;
+      if( char === '>' ) isTag = false;
+
+      if (isTag) return type();
+      setTimeout(type, 80);
+    }());
+
+    </script>
+
+
+
+    <h3>Work Experience</h3>
+    <p>Whole Earth Center</p>
+
+
+  </body>
+
+
+
+
+</html>
