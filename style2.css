@@ -104,6 +104,7 @@ body {
 
 div.row{
   text-align: center;
+
 }
 
 h1 {
@@ -111,13 +112,13 @@ h1 {
   text-align: center;
   font-size: 6em;
   clear: both;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 2em;
 }
 
 p {
   text-align: center;
   font-size: 2em;
+  margin-top: 3em;
 }
 
 
@@ -141,7 +142,6 @@ a:active{
 h2{
   text-align: center;
   font-size: 3em;
-  padding-bottom: 20px;
 }
 
 
@@ -150,10 +150,14 @@ h3, h4, h5{
   text-align: center;
   font-size: 3em;
   margin: auto;
+  margin-bottom: 2em;
+  margin-top: 2em;
 }
 
+
+
 footer{
-  font-size: .5em;
+  font-size: .4em;
   padding-top: 20px;
   padding-bottom: 30px;
 }
