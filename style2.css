@@ -90,7 +90,8 @@ body {
 .social{
   margin-right: 15px;
   margin-left: 15px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-decoration: none;
 }
 
@@ -125,6 +126,7 @@ p {
   margin-right: auto;
   text-align: center;
   font-size: 2em;
+  color: #DB7093;
 
 }
 
