@@ -81,6 +81,12 @@ body {
   border:0;
 }
 
+#facebook{
+  width: 5.6em;
+  height: auto;
+  border:0;
+}
+
 .social{
   margin-right: 15px;
   margin-left: 15px;
