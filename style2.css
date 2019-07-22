@@ -13,6 +13,12 @@ body {
 
 }
 
+#twitter{
+  width:2.5em;
+  height:auto;
+  border:0;
+}
+
 #medium{
   width:2.5em;
   height: auto;
