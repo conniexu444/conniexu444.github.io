@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8"/>
+    <title>Constance Xu</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+
+  </head>
+
+  <body>
+
+
+    <h1>Constance Xu</h1>
+
+    <div id="typewriter"></div>
+
+    <script>
+    var str = "<h2>○ Stevens Institute of Technology '21 ○ Computer Science Major ○</h2>",
+    i = 0,
+    isTag,
+    text;
+
+    (function type() {
+      text = str.slice(0, ++i);
+      if (text === str) return;
+
+      document.getElementById('typewriter').innerHTML = text;
+
+      var char = text.slice(-1);
+      if( char === '<' ) isTag = true;
+      if( char === '>' ) isTag = false;
+
+      if (isTag) return type();
+      setTimeout(type, 80);
+    }());
+
+    </script>
+
+    <div class="row">
+
+      <a href="https://medium.com/@cxu16" target="_blank"><img src="img/medium.png" alt="o" class="social" id="medium"></a>
+      <a href="http://instagram.com/connie.xu" target="_blank"><img src="img/igicon.png" alt="○" class="social" id="instagram"></a>
+      <a href="https://www.linkedin.com/in/constancexu" target="_blank"><img src="img/liicon.png" alt="○" class="social" id="linkedin"></a>
+      <a href="img/collegeresume.pdf" target="_blank"><img src="img/resumeicon.png" alt="○" class="social" id="resume"></a>
+      <a href="https://github.com/conniexu444" target="_blank"><img src="img/githubicon.png" alt="○" class="social" id="github"></a>
+      <a href="mailto:cxu16@stevens.edu" target="_blank"><img src="img/emailicon.png" alt="○" class="social" id="email"></a>
+      <a href="https://www.facebook.com/connie.xu.7737" target="_blank"><img src="img/fbicon.png" alt="○" class="social" id="facebook"></a>
+
+    </div>
+
+
+
+    <!-- <h3><img src="img/downarrow.png" alt="" id="arrow">Work Experience<img src="img/downarrow.png" alt="" id="arrow"></h3>
+    <p>Worked at a <a href="http://reuscc.wp.txstate.edu/" target="_blank">NSF REU</a> from June 2019 to August 2019</p>
+    <div class="descr">
+      <p id="description">- Implemented a lightweight deep learning model on an Nvidia Jetson Tx2. Worked with a Jetson Nano as well.</p>
+      <p id="description">- Coded in Python</p>
+      <p id="description">- Check out the <a href="https://github.com/conniexu444/Mobile_Mask_RCNN" target="_blank">project</a> on Github!</p>
+    </div>
+    <p>Worked at <a href= "https://www.wholeearthcenter.com/" target="_blank">Whole Earth Center</a> from August 2017 - April 2018</p>
+    <div class="descr">
+      <p id="description">Worked at a vegetarian deli where I directed and managed the new employees due to the high turnover rate</p>
+    </div>
+
+    <h4><img src="img/downarrow.png" alt="" id="arrow">Projects<img src="img/downarrow.png" alt="" id="arrow"></h4>
+    <p>Created a version of <a href="https://github.com/conniexu444/hillcipher" target="_blank">hill cipher</a></p>
+    <div class="descr">
+      <p id="description">Using Python, created a linear algebra based cipher that encrypts a given text from the user</p>
+    </div>
+    <p>Created this <a href="http://conniexu444.github.io" target="_blank">website</a> to exemplify my HTML, CSS, and JavaScript skills</p>
+    <div class="descr">
+      <p id="description">Created a resume website with hyperlinks to other social medias along with different projects I have done</p>
+    </div>
+    <p>Co-author of a <a href="https://github.com/areddy5/Web-Dev/tree/master/Team5" target="_blank">website</a> for Stevens students to find activities outside of campus to do</p>
+    <div class="descr">
+      <p id="description">This website was created with the intent to increase engagement on campus so that people can find their passions outside of their academics</p>
+    </div>
+    <p>Co-founder of <a href="http://facebook.com/tigersofphs" target="_blank">Tigers of PHS</a></p>
+    <div class="descr">
+      <p id="description">Co-founder of Tigers of PHS, similar to Humans of New York except specific to my high school with the intent to engage with the Princeton community and learn about new people</p>
+    </div>
+
+    <h5><img src="img/downarrow.png" alt="" id="arrow">Skills<img src="img/downarrow.png" alt="" id="arrow"></h5>
+    <p>Proficient in Python, HTML, CSS, JavaScript, Java</p>
+
+    <footer>
+      <p>Created by Constance Xu</p>
+    </footer> -->
+
+
+
+  </body>
+
+
+
+
+</html>
