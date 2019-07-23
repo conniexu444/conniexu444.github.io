@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    font-size: 6em;
+    color: rgb(2,2,2);
+}
+
+a:link, a:visited{
+    color: black;
+    text-align: center;
+    background-color: pink;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+
+
