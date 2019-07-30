@@ -7,6 +7,34 @@ h1{
     color: rgb(2,2,2);
 }
 
+#aboutmehead{
+    color:black;
+    font-size: 3em;
+    padding: 10px 10px;
+}
+#aboutmeparagraph{
+    color: black;
+    text-align: left;
+    margin-right: 10em;
+    margin-left: 10em;
+    background-color: pink;
+    padding: 10px 20px;
+    width: 30em;
+    
+}
+
+#aboutmeparagraph2{
+    margin-top: 5em;
+    color: black;
+    text-align: right;
+    margin-right: 20em;
+    margin-left: 50em;
+    background-color: pink;
+    padding: 10px 20px;
+    width: 30em;
+    
+}
+
 a:link, a:visited{
     color: black;
     text-align: center;
